@@ -119,3 +119,26 @@ body {
   .addBtn:hover {
     background-color: #bbb;
   }
+  #li-menubar {
+	float: left;
+}
+
+#li-menubar a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#li-menubar a:hover {	
+	background-color: #111;
+}
+
+#menubar-ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
